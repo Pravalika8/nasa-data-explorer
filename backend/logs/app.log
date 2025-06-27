@@ -1,0 +1,19 @@
+2025-06-27T12:04:02.901Z [INFO] Server is running on http://localhost:5000
+2025-06-27T12:04:34.242Z [INFO] Nasa apod url: https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
+2025-06-27T12:06:10.487Z [INFO] Nasa apod url: https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2025-06-27&end_date=2025-06-27
+2025-06-27T12:06:11.325Z [INFO] Nasa apod url: https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2025-06-27&end_date=2025-06-27
+2025-06-27T12:06:13.539Z [INFO] Nasa epic url
+2025-06-27T12:06:14.281Z [INFO] Nasa epic url
+2025-06-27T12:06:21.368Z [INFO] Nasa neo url: 
+2025-06-27T12:06:25.286Z [INFO] Nasa neo url: 
+2025-06-27T12:06:32.851Z [INFO] Nasa neo url: 
+2025-06-27T12:06:47.321Z [INFO] Nasa neo url: 
+2025-06-27T12:06:52.306Z [INFO] Nasa neo url: 
+2025-06-27T12:07:03.635Z [INFO] Nasa media url
+2025-06-27T12:07:09.974Z [INFO] Nasa epic url
+2025-06-27T12:07:11.215Z [INFO] Nasa epic url
+2025-06-27T12:07:22.305Z [INFO] Nasa epic url
+2025-06-27T12:07:41.652Z [INFO] Nasa apod url: https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2025-06-27&end_date=2025-06-27
+2025-06-27T12:07:42.529Z [INFO] Nasa apod url: https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2025-06-27&end_date=2025-06-27
+2025-06-27T12:07:57.648Z [INFO] Nasa apod url: https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2025-06-27&end_date=2025-06-27
+2025-06-27T12:07:58.474Z [INFO] Nasa apod url: https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2025-06-27&end_date=2025-06-27
