@@ -11,7 +11,11 @@ const errorHandler = require('./middleware/errorHandler');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(cors());
+
+const allowedOrigin = process.env.CLIENT_ORIGIN || 'http://localhost:3000';
+app.use(cors({
+  origin: allowedOrigin
+}));
 app.get('healthz', (req, res) => {
   res.json({ message: 'Pong from NASA backend' });
 });
