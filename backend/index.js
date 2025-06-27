@@ -12,6 +12,9 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors());
+app.get('healthz', (req, res) => {
+  res.json({ message: 'Pong from NASA backend' });
+});
 app.use('/apod', apodRoute);
 app.use('/neo', neoRoute);
 app.use('/media', mediaRoute);
