@@ -76,6 +76,7 @@ cd nasa-data-explorer
 ```
 ### Start Application
 ```
+### Backend
 cd backend
 npm install
 npm start
@@ -91,6 +92,7 @@ Backend Tests (Jest + Supertest)
 -npm test
 ```
 ### Deployment
+```
 Frontend (Vercel)
     -Push frontend to GitHub
     -Import repo on Vercel
@@ -103,19 +105,23 @@ Backend (Render)
     -Set environment variables
     -Use npm start as start command
     -Expose port (Render sets it automatically)
-
+```
 
 
 ### APIs Used
+```
 -APOD API
 -EPIC Earth API
 -NEO Feed API
 -NASA Image & Video Library
+```
 
 ### Technologies
+```
 Frontend	                    Backend	                            Deployment
 -React	                        -Express.js	                           -Vercel (Frontend)
 -Redux Toolkit	                -Axios	                               -Render (Backend)
 -Tailwind CSS	                -Winston Logger	    
 -Charts(recharts)               -CORS	            
--React Router		            -jest & supertest           
+-React Router		            -jest & supertest
+```     
