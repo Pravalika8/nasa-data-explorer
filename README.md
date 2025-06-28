@@ -62,8 +62,9 @@ nasa-data-explorer/
 ```bash
 git clone https://github.com/Pravalika8/nasa-data-explorer.git
 cd nasa-data-explorer
-
+```
 ### Environment Variables
+```
 .env(backend)
     -NASA_PUBLIC_API=https://api.nasa.gov
     -NASA_API_KEY=DEMO_KEY
@@ -72,7 +73,23 @@ cd nasa-data-explorer
 
 .env(frontend)
     -REACT_APP_BACKEND_API =http://localhost:5000
-
+```
+### Start Application
+```
+cd backend
+npm install
+npm start
+### Frontend
+cd frontend
+npm install
+npm start
+```
+### Testing
+```
+Backend Tests (Jest + Supertest)
+-cd backend
+-npm test
+```
 ### Deployment
 Frontend (Vercel)
     -Push frontend to GitHub
@@ -87,10 +104,7 @@ Backend (Render)
     -Use npm start as start command
     -Expose port (Render sets it automatically)
 
-### Testing
-Backend Tests (Jest + Supertest)
--cd backend
--npm test
+
 
 ### APIs Used
 -APOD API
