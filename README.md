@@ -12,7 +12,7 @@ Built using **React + Redux Toolkit + Tailwind CSS** for frontend and **Express.
 
 
 ---
-
+```
 ## 📁 Project Structure
 nasa-data-explorer/
 ├──frontend #React
@@ -37,7 +37,7 @@ nasa-data-explorer/
 ├── README.md
 ├── .env
 └── ...
-
+```
 
 ---
 
@@ -99,9 +99,9 @@ Backend Tests (Jest + Supertest)
 -NASA Image & Video Library
 
 ### Technologies
-Frontend	            Backend	                Deployment
--React	            -Express.js	            -Vercel (Frontend)
--Redux Toolkit	    -Axios	                -Render (Backend)
--Tailwind CSS	      -Winston Logger	    
--Charts(recharts)   -CORS	            
--React Router		    -jest & supertest           
+Frontend	                    Backend	                            Deployment
+-React	                        -Express.js	                           -Vercel (Frontend)
+-Redux Toolkit	                -Axios	                               -Render (Backend)
+-Tailwind CSS	                -Winston Logger	    
+-Charts(recharts)               -CORS	            
+-React Router		            -jest & supertest           
